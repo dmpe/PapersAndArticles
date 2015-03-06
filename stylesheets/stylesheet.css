@@ -10,12 +10,12 @@
    ========================================================================== */
 
 html {
-    color: #D9BCA3;
     font-size: 1em;
     line-height: 1.4;
 }
 
 body {
+    color: #D9BCA3;
     padding-top: 80px;
 }
 
