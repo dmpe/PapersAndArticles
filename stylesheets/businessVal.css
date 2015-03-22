@@ -10,7 +10,6 @@
    ========================================================================== */
 
 html {
-    font-size: 1em;
     line-height: 1.4;
 }
 
@@ -27,23 +26,6 @@ body {
   background-color: #f5f5f5;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
 /*
  * A better looking default horizontal rule
