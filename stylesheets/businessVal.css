@@ -42,3 +42,7 @@ svg,
 video {
     vertical-align: middle;
 }
+
+.margin-bottomTable {
+  margin-bottom: 20px;
+}
