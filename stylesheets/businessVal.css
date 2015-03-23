@@ -47,6 +47,7 @@ video {
   margin-bottom: 40px;
 }
 
-.red {
-  color:red; 
+mark.red {
+    color:#ff0000;
+    background: none;
 }
