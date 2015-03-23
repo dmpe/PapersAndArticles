@@ -46,3 +46,7 @@ video {
 .margin-bottomTable, .tradingview-script {
   margin-bottom: 40px;
 }
+
+.red {
+  color:red; 
+}
