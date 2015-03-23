@@ -43,6 +43,6 @@ video {
     vertical-align: middle;
 }
 
-.margin-bottomTable {
-  padding-bottom: 30px;
+.margin-bottomTable, .tradingview-script {
+  padding-bottom: 40px;
 }
