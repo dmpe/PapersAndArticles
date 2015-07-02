@@ -40,8 +40,7 @@
 
 		<div class="container-fluid">
 
-            <canvas id="the-canvas" style="border:1px solid black;"></canvas>
-
+            <iframe src="http://docs.google.com/gview?url=http://path.com/to/your/pdf.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
         </div>
 
 
@@ -66,38 +65,6 @@
                     try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
                     catch(e){window.attachEvent("onload", $buo_f)}
                 </script> 
-                <script type="text/javascript">
-                    var pdfDoc = null,
-                        pageNum = 1,
-                        scale = 0.8,
-                        canvas = document.getElementById('the-canvas'),
-                        ctx = canvas.getContext('2d');
-
-                    PDFJS.getDocument('helloworld.pdf').then(function(pdf) {
-                        // // Using promise to fetch the page
-                        // pdf.getPage(1).then(function(page) {
-                        //     var scale = 1.5;
-                        //     var viewport = page.getViewport(scale);
-
-                        //     //
-                        //     // Prepare canvas using PDF page dimensions
-                        //     //
-                        //     var canvas = document.getElementById('the-canvas');
-                        //     var context = canvas.getContext('2d');
-                        //     canvas.height = viewport.height;
-                        //     canvas.width = viewport.width;
-
-                        //     //
-                        //     // Render PDF page into canvas context
-                        //     //
-                        //     var renderContext = {
-                        //       canvasContext: context,
-                        //       viewport: viewport
-                        //     };
-                        //     page.render(renderContext);
-                        // });
-                    });    
-                </script>
                 <p class="copyright">Site maintained by <a href="https://www.linkedin.com/in/dmitrijpetrov">dmpe</a></p>
             </div>
         </footer>
