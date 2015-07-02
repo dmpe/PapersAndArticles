@@ -6,16 +6,20 @@
         <meta charset="utf-8">
 
 		<title>Attractiveness index of global economies</title>
-    	<meta name="description" content="Thesis: Attractiveness index of global economies">
+    	<meta name="description" content="Thesis: The Attractiveness Index of Global Economies">
 
     	<script src="//use.typekit.net/xli1ios.js"></script>
     	<script>try{Typekit.load();}catch(e){}</script>
 
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
 
     	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="https://raw.github.com/mozilla/pdf.js/gh-pages/build/pdf.js"></script>
+        <script type="text/javascript" src="https://raw.github.com/mozilla/pdf.js/gh-pages/build/pdf.worker.js"></script>
+
 
     </head>
 	<body>
@@ -35,17 +39,8 @@
         </div>
 
 		<div class="container-fluid">
-            <div class="col-xs-6 col-sm-4">
-                
-            </div>
 
-            <div class="col-xs-6 col-sm-4">
-                
-            </div>
-            
-            <div class="col-xs-6 col-sm-4">
-                
-            </div>
+            <canvas id="the-canvas" style="border:1px solid black;"/>
 
         </div>
 
@@ -71,6 +66,38 @@
                     try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
                     catch(e){window.attachEvent("onload", $buo_f)}
                 </script> 
+                <script type="text/javascript">
+                    var pdfDoc = null,
+                        pageNum = 1,
+                        scale = 0.8,
+                        canvas = document.getElementById('the-canvas'),
+                        ctx = canvas.getContext('2d');
+                        
+                    PDFJS.getDocument('helloworld.pdf').then(function(pdf) {
+                        // Using promise to fetch the page
+                        pdf.getPage(1).then(function(page) {
+                            var scale = 1.5;
+                            var viewport = page.getViewport(scale);
+
+                            //
+                            // Prepare canvas using PDF page dimensions
+                            //
+                            var canvas = document.getElementById('the-canvas');
+                            var context = canvas.getContext('2d');
+                            canvas.height = viewport.height;
+                            canvas.width = viewport.width;
+
+                            //
+                            // Render PDF page into canvas context
+                            //
+                            var renderContext = {
+                              canvasContext: context,
+                              viewport: viewport
+                            };
+                            page.render(renderContext);
+                        });
+                    });    
+                </script>
                 <p class="copyright">Site maintained by <a href="https://www.linkedin.com/in/dmitrijpetrov">dmpe</a></p>
             </div>
         </footer>
