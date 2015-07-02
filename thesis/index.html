@@ -40,7 +40,7 @@
 
 		<div class="container-fluid">
 
-            <canvas id="the-canvas" style="border:1px solid black;"/>
+            <canvas id="the-canvas" style="border:1px solid black;"></canvas>
 
         </div>
 
@@ -72,7 +72,7 @@
                         scale = 0.8,
                         canvas = document.getElementById('the-canvas'),
                         ctx = canvas.getContext('2d');
-                        
+
                     PDFJS.getDocument('helloworld.pdf').then(function(pdf) {
                         // // Using promise to fetch the page
                         // pdf.getPage(1).then(function(page) {
