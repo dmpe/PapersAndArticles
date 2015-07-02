@@ -1,5 +1,6 @@
 # Papers And Articles
-This repository contains my papers and other articles I publish on the Internet. 
+
+This repository contains papers and other articles I publish on the internet. 
 
 For my blog visit [http://indestat.wordpress.com/](http://indestat.wordpress.com/).
 
@@ -12,4 +13,4 @@ For my blog visit [http://indestat.wordpress.com/](http://indestat.wordpress.com
 
 
 # Thesis
-1. One day....
+1. [Undergraduate (Bachelor's) Thesis: *The Attractiveness Index of Global Economies*](http://dmpe.github.io/PapersAndArticles/thesis/)
