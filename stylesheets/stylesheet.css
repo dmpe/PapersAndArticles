@@ -132,3 +132,14 @@ video {
     background-color: #92a63c;
   }
 }
+
+
+/*  For Thesis */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
