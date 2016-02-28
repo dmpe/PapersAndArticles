@@ -11,6 +11,13 @@ For my blog visit [http://indestat.wordpress.com/](http://indestat.wordpress.com
 
 2. [*Introduction to the Corporate Social Responsibility*](http://dmpe.github.io/PapersAndArticles/IntroToCSR/)
 
+3. [*Smart Factory – ICT Requirements*](https://dmpe.github.io/PapersAndArticles/ICTRequirementsOfSmartFactories/) 
+
+4. [*Launching the Smart Home Initiative*](https://dmpe.github.io/PapersAndArticles/SmartHomeInitiative/)  
+
+5. [*Linguistic Consumer Profiling*](https://dmpe.github.io/PapersAndArticles/)
 
 # Thesis
 1. [Undergraduate (Bachelor's) Thesis: *The Attractiveness Index of Global Economies*](http://dmpe.github.io/PapersAndArticles/thesis/)
+
+2. [Graduate (Master's) Thesis: *To be announced in SS17*](http://dmpe.github.io/PapersAndArticles/)
