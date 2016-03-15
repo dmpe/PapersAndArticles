@@ -15,7 +15,7 @@ For my blog visit [http://indestat.wordpress.com/](http://indestat.wordpress.com
 
 4. [*Launching the Smart Home Initiative*](https://dmpe.github.io/PapersAndArticles/SmartHomeInitiative/)  
 
-5. [*Linguistic Consumer Profiling*](https://dmpe.github.io/PapersAndArticles/)
+5. [*Linguistic Consumer Profiling*](https://dmpe.github.io/PapersAndArticles/LingConsProf)
 
 # Thesis
 1. [Undergraduate (Bachelor's) Thesis: *The Attractiveness Index of Global Economies*](http://dmpe.github.io/PapersAndArticles/thesis/)
