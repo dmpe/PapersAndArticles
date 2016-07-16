@@ -17,6 +17,8 @@ For my blog visit [http://indestat.wordpress.com/](http://indestat.wordpress.com
 
 5. [*Linguistic Consumer Profiling*](https://dmpe.github.io/PapersAndArticles/LingConsProf)
 
+6. [*Service Innovation at JOSEPHS*](https://dmpe.github.io/PapersAndArticles/ServiceInnovation/)
+
 # Thesis
 1. [Undergraduate (Bachelor's) Thesis: *The Attractiveness Index of Global Economies*](http://dmpe.github.io/PapersAndArticles/thesis/)
 
