@@ -9,11 +9,6 @@
    http://work.smarchal.com/twbscolor/css/92a63c92a63cecf0f1ecdbff0
    ========================================================================== */
 
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
 body {
     color: black;
     padding-top: 80px;
@@ -72,7 +67,7 @@ svg,
 video {
     vertical-align: middle;
 }
-
+/*
 .navbar-default {
   background-color: #92a63c;
   border-color: #92a63c;
@@ -131,6 +126,6 @@ video {
     color: #ecdbff;
     background-color: #92a63c;
   }
-}
+}*/
 
 
