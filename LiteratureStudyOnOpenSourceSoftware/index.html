@@ -29,9 +29,10 @@
         <div class="container" style="padding-top: 80px;">
             <div class="row">
                 <div class="col-md-6">
+                <!-- https://v4-alpha.getbootstrap.com/components/popovers/ -->
                     <h4>Long version - 
-                        <span class="tag tag-info" style="padding: 0; background-color: #e14b19;">
-                            <a style="color:#4a1f9c;" tabindex="0" class="btn btn-sm" role="button" data-toggle="popover" data-trigger="focus" title="Differences to short version" data-content="Contains large introduction chapter (2) and look at FLOSS in organizations & healthcare setting (3.3).">undelivered.</a>
+                        <span class="badge badge-pill badge-info" style="padding: 0; background-color: #e14b19;">
+                            <a style="color:#4a1f9c;" tabindex="0" class="btn btn-sm" role="button" data-toggle="popover" data-trigger="focus" title="Differences to short version" data-content="Contains large introduction chapter (2) and look at FLOSS in organizations & healthcare setting (3.3)."> undelivered.</a>
                         </span>
                     </h4>
                     <iframe src="https://docs.google.com/viewerng/viewer?url=https://github.com/dmpe/PapersAndArticles/raw/master/AdoptionOfOpenSourceSoftware_Long.pdf&embedded=true" style="width:550px; height:600px; border:none;"></iframe>
@@ -74,15 +75,13 @@
         <!-- Initialize Bootstrap functionality - always after -->
         <script type="text/javascript">
         $(function () {
-          $('[data-toggle="tooltip"]').tooltip()
+          $('[data-toggle="popover"]').popover({
+            trigger: 'hover focus'
+          })
         })
-
+        // zde ne
         $(function () {
-          $('[data-toggle="popover"]').popover()
-        })
-
-        $('.popover-dismiss').popover({
-          trigger: 'focus'
+          $('[data-toggle="tooltip"]').tooltip()
         })
         </script>
 	</body>
