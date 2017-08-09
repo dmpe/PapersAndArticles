@@ -22,4 +22,4 @@ For my blog visit [http://indestat.wordpress.com/](http://indestat.wordpress.com
 # Thesis
 1. [Undergraduate (Bachelor's) Thesis: *The Attractiveness Index of Global Economies*](http://dmpe.github.io/PapersAndArticles/thesis/)
 
-2. [Graduate (Master's) Thesis: *To be announced in SS17*](http://dmpe.github.io/PapersAndArticles/)
+2. [Graduate (Master's) Thesis](https://www.github.com/dmpe/master)
