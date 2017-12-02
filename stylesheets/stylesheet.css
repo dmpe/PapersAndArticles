@@ -11,7 +11,6 @@
 
 body {
     color: black;
-    /*padding-top: 80px;*/
 }
 
 .footer {
@@ -29,11 +28,6 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
 ::selection {
     background: #b3d4fc;
