@@ -19,7 +19,9 @@ For my blog visit [http://indestat.wordpress.com/](http://indestat.wordpress.com
 
 6. [*Service Innovation at JOSEPHS*](https://dmpe.github.io/PapersAndArticles/ServiceInnovation/)
 
+7. [*Adoption Barriers of Open-Source Software: A Systematic Review*](https://ssrn.com/abstract=3138085)
+
 # Thesis
 1. [Undergraduate (Bachelor's) Thesis: *The Attractiveness Index of Global Economies*](http://dmpe.github.io/PapersAndArticles/thesis/)
 
-2. [Graduate (Master's) Thesis](https://www.github.com/dmpe/master)
+2. [Graduate (Master's) Thesis: *Discovering Data Science Design Patterns with Examples from R and Python Software Ecosystem*](https://dmpe.github.io/PapersAndArticles/design_patterns/)
